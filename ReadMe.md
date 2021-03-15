@@ -2,8 +2,7 @@
 
 
 
-## Run This Code on Database.
-
+### Run This Code on Database.
 CREATE TABLE adminusers (
     usersID int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
     usersUid varchar(128) NOT NULL,
