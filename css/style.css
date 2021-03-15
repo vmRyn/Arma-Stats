@@ -12,11 +12,21 @@ table {
     border-collapse: collapse;
     width: 50%;
     color: black;
-    font-family: monospace;
+    font-family: Poppins;
     font-size: 15px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+h1 {
+    background-color: #333;
+    border-radius: 1px;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
 }
 
 th {
@@ -24,12 +34,25 @@ th {
     color: white;
 }
 
+td {
+    color: black;
+    border: 1px solid #333;
+    text-align: left;
+    padding: 4px;
+    text-align: center;
+}
+
 th:hover {
     color: orange;
 }
 
 tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
     background-color: white;
+    ;
 }
 
 .mobile-container {
@@ -38,6 +61,18 @@ tr:nth-child(even) {
     height: 26.3vw;
     color: white;
     border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    background-color: #333;
+    color: white;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
@@ -78,4 +113,90 @@ a:hover {
 .active {
     background-color: #333;
     color: white;
+}
+
+input {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login {
+    width: 50%;
+    margin: 16px auto;
+    font-size: 16px;
+}
+
+.login-header,
+.login p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.login-triangle {
+    width: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border: 12px solid transparent;
+    border-bottom-color: #333;
+}
+
+.login-header {
+    background: orange;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.login-container {
+    background: transparent;
+    padding: 12px;
+}
+
+.login p {
+    padding: 12px;
+}
+
+.login input {
+    box-sizing: border-box;
+    display: block;
+    width: 50%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    background: #fff;
+    border-color: #bbb;
+    color: orange;
+}
+
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+    border-color: #888;
+}
+
+.login input[type="submit"] {
+    background: orange;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+    background: orange;
+}
+
+
+/* Buttons' focus effect */
+
+.login input[type="submit"]:focus {
+    border-color: orange;
 }

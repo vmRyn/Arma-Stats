@@ -7,7 +7,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Altis Stats - Stats</title>
+    <title>Altis Stats - Gangs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -22,38 +22,34 @@
 
     <br>
 
-    <h1>ALTIS LIFE | MAIN</h1>
+    <h1>ALTIS LIFE | GANGS</h1>
 
     <table>
         <tr>
-            <th>Name</th>
-            <th>Aliases</th>
-            <th>Steam ID</th>
             <th>Gang ID</th>
-            <th>Cash</th>
-            <th>Bank Account</th>
-            <th>Admin Level</th>
-            <th>Cop Level</th>
-            <th>Medic Level</th>
+            <th>Gang Name</th>
+            <th>Owner</th>
+            <th>Currently Online</th>
+            <th>Gang Tag</th>
+            <th>Gang Bank</th>
+            <th>Gang Level</th>
         </tr>
 
         <?php
-            $sql = "SELECT * FROM clclients;";
+            $sql = "SELECT * FROM clgangs;";
             $result = mysqli_query($conn, $sql);
             $resultCheck = mysqli_num_rows($result);
 
             if ($resultCheck > 0) {
                 while ($row = mysqli_fetch_assoc($result)) {
                     echo "<tr><td>" 
+                    . $row['id'] . "</td><td>" 
                     . $row['name'] . "</td><td>" 
-                    . $row['aliases'] . "</td><td>" 
-                    . $row['playerid'] . "</td><td>"
-                    . $row['gangid'] . "</td><td>" 
-                    . $row['cash'] . "</td><td>" 
-                    . $row['bankacc'] ."</td><td>" 
-                    . $row['adminlevel'] . "</td><td>" 
-                    . $row['coplevel'] . "</td><td>" 
-                    . $row['mediclevel'] . "</td></tr>";
+                    . $row['owner'] . "</td><td>" 
+                    . $row['active'] . "</td><td>" 
+                    . $row['tag'] . "</td><td>" 
+                    . $row['bank'] . "</td><td>"
+                    . $row['level'] ."</td></tr>";
                 }
             }
         ?>
@@ -70,9 +66,5 @@
         }
     }
     </script>
-
-<?php
-  require "required/footer.php";
-?>
 </body>
 </html>
