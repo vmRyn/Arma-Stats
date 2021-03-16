@@ -11,7 +11,7 @@ h1 {
 table {
     border-collapse: collapse;
     width: 50%;
-    color: black;
+    color: #191919;
     font-family: Poppins;
     font-size: 15px;
     text-align: center;
@@ -20,7 +20,7 @@ table {
 }
 
 h1 {
-    background-color: #333;
+    background-color: #292929;
     border-radius: 1px;
     width: 50%;
     text-align: center;
@@ -30,13 +30,13 @@ h1 {
 }
 
 th {
-    background-color: #333;
+    background-color: #292929;
     color: white;
 }
 
 td {
-    color: black;
-    border: 1px solid #333;
+    color: #191919;
+    border: 1px solid #292929;
     text-align: left;
     padding: 4px;
     text-align: center;
@@ -57,7 +57,7 @@ tr:nth-child(odd) {
 
 .mobile-container {
     margin: auto;
-    background-color: #555;
+    background-color: #292929;
     height: 26.3vw;
     color: white;
     border-radius: 10px;
@@ -70,7 +70,7 @@ tr:nth-child(odd) {
     left: 0;
     bottom: 0;
     width: 50%;
-    background-color: #333;
+    background-color: #292929;
     color: white;
     text-align: center;
     margin-left: auto;
@@ -80,7 +80,7 @@ tr:nth-child(odd) {
 .topnav {
     max-width: 50%;
     overflow: hidden;
-    background-color: #333;
+    background-color: #292929;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -99,7 +99,7 @@ tr:nth-child(odd) {
 }
 
 .topnav a.icon {
-    background: black;
+    background: #191919;
     display: block;
     position: absolute;
     right: 0;
@@ -111,7 +111,7 @@ a:hover {
 }
 
 .active {
-    background-color: #333;
+    background-color: #292929;
     color: white;
 }
 
@@ -137,7 +137,7 @@ input {
     margin-right: auto;
     margin-left: auto;
     border: 12px solid transparent;
-    border-bottom-color: #333;
+    border-bottom-color: #292929;
 }
 
 .login-header {
