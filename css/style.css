@@ -11,11 +11,7 @@ h1 {
 table {
     border-collapse: collapse;
     max-width: 50%;
-<<<<<<< Updated upstream
-    width: 50%;
-=======
     width: 75%;
->>>>>>> Stashed changes
     color: #191919;
     font-family: Poppins;
     font-size: 1.5vh;
@@ -156,13 +152,8 @@ input {
 }
 
 .login-container {
-<<<<<<< Updated upstream
-    background: transparent;
-    padding: 1.2644889357218125vh;
-=======
     background: #292929;
     border-radius: 15px;
->>>>>>> Stashed changes
 }
 
 .login p {
