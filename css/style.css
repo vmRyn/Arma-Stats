@@ -10,10 +10,11 @@ h1 {
 
 table {
     border-collapse: collapse;
+    max-width: 50%;
     width: 50%;
     color: #191919;
     font-family: Poppins;
-    font-size: 15px;
+    font-size: 1.5vh;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -21,8 +22,8 @@ table {
 
 h1 {
     background-color: #292929;
-    border-radius: 1px;
-    width: 50%;
+    border-radius: 0.1vh;
+    width: 75%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -36,9 +37,9 @@ th {
 
 td {
     color: #191919;
-    border: 1px solid #292929;
+    border: 0.1vh solid #292929;
     text-align: left;
-    padding: 4px;
+    padding: 0.4vh;
     text-align: center;
 }
 
@@ -60,16 +61,16 @@ tr:nth-child(odd) {
     background-color: #292929;
     height: 26.3vw;
     color: white;
-    border-radius: 10px;
+    border-radius: 1.0vh;
     margin-left: auto;
     margin-right: auto;
 }
 
 .footer {
-    position: relative;
+    position: fixed;
     left: 0;
     bottom: 0;
-    width: 50%;
+    width: 100%;
     background-color: #292929;
     color: white;
     text-align: center;
@@ -78,7 +79,7 @@ tr:nth-child(odd) {
 }
 
 .topnav {
-    max-width: 50%;
+    max-width: 100%;
     overflow: hidden;
     background-color: #292929;
     position: relative;
@@ -92,9 +93,9 @@ tr:nth-child(odd) {
 
 .topnav a {
     color: white;
-    padding: 14px 16px;
+    padding: 1.4vh 1.6vh;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.79vh;
     display: block;
 }
 
@@ -122,8 +123,8 @@ input {
 
 .login {
     width: 50%;
-    margin: 16px auto;
-    font-size: 16px;
+    margin: 1.68vh auto;
+    font-size: 1.68vh;
 }
 
 .login-header,
@@ -136,13 +137,13 @@ input {
     width: 0;
     margin-right: auto;
     margin-left: auto;
-    border: 12px solid transparent;
+    border: 1.2644889357218125vh solid transparent;
     border-bottom-color: #292929;
 }
 
 .login-header {
     background: orange;
-    padding: 20px;
+    padding: 2.107481559536354vh;
     font-size: 1.4em;
     font-weight: normal;
     text-align: center;
@@ -152,20 +153,20 @@ input {
 
 .login-container {
     background: transparent;
-    padding: 12px;
+    padding: 1.2644889357218125vh;
 }
 
 .login p {
-    padding: 12px;
+    padding: 1.2644889357218125vh;
 }
 
 .login input {
     box-sizing: border-box;
     display: block;
     width: 50%;
-    border-width: 1px;
+    border-width: 0.1053740779768177vh;
     border-style: solid;
-    padding: 16px;
+    padding: 1.6859852476290833vh;
     outline: 0;
     font-family: inherit;
     font-size: 0.95em;
