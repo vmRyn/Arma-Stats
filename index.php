@@ -48,8 +48,8 @@
                     . $row['name'] . "</td><td>" 
                     . $row['aliases'] . "</td><td>" 
                     . $row['playerid'] . "</td><td>"
-                    . $row['gangid'] . "</td><td>" 
-                    . $row['cash'] . "</td><td>" 
+                    . $row['gangid'] . "</td><td>£" 
+                    . $row['cash'] . "</td><td>£" 
                     . $row['bankacc'] ."</td><td>" 
                     . $row['adminlevel'] . "</td><td>" 
                     . $row['coplevel'] . "</td><td>" 
@@ -58,7 +58,6 @@
             }
         ?>
     </table>
-
 
     <script>
     function myFunction() {
